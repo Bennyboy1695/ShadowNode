@@ -4,3 +4,8 @@
 @import "{{ site.theme }}";
 
 //For overriding the wiki areas css!
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+}
