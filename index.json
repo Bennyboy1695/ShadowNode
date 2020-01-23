@@ -1,0 +1,141 @@
+[
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2017-03-07-bigimg-sample/",
+	"title": "Big Image Sample",
+	"tags": ["example", "bigimg"],
+	"description": "",
+	"content": "The image banners at the top of the page are refered to as \u0026ldquo;bigimg\u0026rdquo; in this theme. They are optional, and one more more can be specified. If more than one is specified, the images rotate every 10 seconds. In the front matter, bigimgs are specified using an array of hashes.\nA single bigimg can be specified in the front matter by the following YAML:\nbigimg: [{src: \u0026quot;/img/triangle.jpg\u0026quot;, desc: \u0026quot;Triangle\u0026quot;}]\rMultiple bigimgs can be specified in the front matter by the following YAML:\nbigimg: [{src: \u0026quot;/img/triangle.jpg\u0026quot;, desc: \u0026quot;Triangle\u0026quot;}, {src: \u0026quot;/img/sphere.jpg\u0026quot;, desc: \u0026quot;Sphere\u0026quot;}, {src: \u0026quot;/img/hexagon.jpg\u0026quot;, desc: \u0026quot;Hexagon\u0026quot;}]\rAlso note that the description field is optional, and images could instead be specified by:\nbigimg: [{src: \u0026quot;/img/triangle.jpg\u0026quot;}, {src: \u0026quot;/img/sphere.jpg\u0026quot;}, {src: \u0026quot;/img/hexagon.jpg\u0026quot;}]\rThe above YAML array of hashes were written in \u0026ldquo;flow\u0026rdquo; style. However when generating a new page or post with hugo new post/mypost.md, hugo may interpret the archetype for bigimg in the default YAML style. Defining multiple bigimg's complete with descriptions in this style would be specified by:\nbigimg: - {src: \u0026quot;/img/triangle.jpg\u0026quot;, desc: \u0026quot;Triangle\u0026quot;}\r- {src: \u0026quot;/img/sphere.jpg\u0026quot;, desc: \u0026quot;Sphere\u0026quot;}\r- {src: \u0026quot;/img/hexagon.jpg\u0026quot;, desc: \u0026quot;Hexagon\u0026quot;}\rAdditional information can be found in this YAML tutorial.\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/tags/bigimg/",
+	"title": "bigimg",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/tags/example/",
+	"title": "example",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/",
+	"title": "ShadowNode Modded Game Servers",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/",
+	"title": "Un-useds",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/tags/math/",
+	"title": "math",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2017-03-05-math-sample/",
+	"title": "Math Sample",
+	"tags": ["example", "math"],
+	"description": "",
+	"content": "KaTeX can be used to generate complex math formulas. It supports in-line math using the \\\\( ... \\\\) delimiters, like this: \\( E = mc^2 \\). By default, it does not support in-line delimiters $...$ because those occur too commonly in typical webpages. It supports displayed math using the $$ or \\\\[...\\\\] delimiters, like this:\nFormula 1: $$ \\phi = \\frac{(1+\\sqrt{5})}{2} = 1.6180339887\\cdots $$\nFormula 2: (same formula, different delimiter) \\[ \\phi = \\frac{(1+\\sqrt{5})}{2} = 1.6180339887\\cdots \\]\nAdditional details can be found on GitHub or on the Wiki.\nExample 1 If the text between $$ contains newlines it will rendered in display mode:\n$$\rf(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi\r$$\r$$ f(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi),e^{2 \\pi i \\xi x},d\\xi $$\nExample 2 $$\r\\frac{1}{\\Bigl(\\sqrt{\\phi \\sqrt{5}}-\\phi\\Bigr) e^{\\frac25 \\pi}} = 1+\\frac{e^{-2\\pi}} {1+\\frac{e^{-4\\pi}} {1+\\frac{e^{-6\\pi}} {1+\\frac{e^{-8\\pi}} {1+\\cdots} } } }\r$$\r$$ \\frac{1}{\\Bigl(\\sqrt{\\phi \\sqrt{5}}-\\phi\\Bigr) e^{\\frac25 \\pi}} = 1+\\frac{e^{-2\\pi}} {1+\\frac{e^{-4\\pi}} {1+\\frac{e^{-6\\pi}} {1+\\frac{e^{-8\\pi}} {1+\\cdots} } } } $$\nExample 3 $$\r1 + \\frac{q^2}{(1-q)}+\\frac{q^6}{(1-q)(1-q^2)}+\\cdots = \\prod_{j=0}^{\\infty}\\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \\quad\\quad \\text{for }\\lvert q\\rvert\u0026lt;1.\r$$\r$$ 1 + \\frac{q^2}{(1-q)}+\\frac{q^6}{(1-q)(1-q^2)}+\\cdots = \\prod_{j=0}^{\\infty}\\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \\quad\\quad \\text{for }\\lvert q\\rvert\u0026lt;1. $$\nExample 4 Remember, certain characters are rendered by markdown, so you may need to workaround those issues. You can find the complete list of KaTeX supported functions here: https://khan.github.io/KaTeX/docs/supported.html\nFor example, the ' character can be replaced with ^\\prime:\n$$ G^\\prime = G - u $$\nThe \u0026quot; character can be replaced with ^{\\prime\\prime}:\n$$ G^{\\prime\\prime} = G^\\prime - v $$\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/tags/code/",
+	"title": "code",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2016-03-08-code-sample/",
+	"title": "Code Sample",
+	"tags": ["example", "code"],
+	"description": "",
+	"content": "The following are two code samples using syntax highlighting.\nThe following is a code sample using triple backticks ( ``` ) code fencing provided in Hugo. This is client side highlighting and does not require any special installation.\nvar num1, num2, sum\rnum1 = prompt(\u0026#34;Enter first number\u0026#34;)\rnum2 = prompt(\u0026#34;Enter second number\u0026#34;)\rsum = parseInt(num1) + parseInt(num2) // \u0026#34;+\u0026#34; means \u0026#34;add\u0026#34;\r alert(\u0026#34;Sum = \u0026#34; + sum) // \u0026#34;+\u0026#34; means combine into a string\rThe following is a code sample using the \u0026ldquo;highlight\u0026rdquo; shortcode provided in Hugo. This is server side highlighting and requires Python and Pygments to be installed.\nvar num1, num2, sum\rnum1 = prompt(\u0026#34;Enter first number\u0026#34;)\rnum2 = prompt(\u0026#34;Enter second number\u0026#34;)\rsum = parseInt(num1) + parseInt(num2) // \u0026#34;+\u0026#34; means \u0026#34;add\u0026#34;\r alert(\u0026#34;Sum = \u0026#34; + sum) // \u0026#34;+\u0026#34; means combine into a string  And here is the same code with line numbers:\n1 var num1, num2, sum\r2 num1 = prompt(\u0026#34;Enter first number\u0026#34;)\r3 num2 = prompt(\u0026#34;Enter second number\u0026#34;)\r4 sum = parseInt(num1) + parseInt(num2) // \u0026#34;+\u0026#34; means \u0026#34;add\u0026#34;\r5 alert(\u0026#34;Sum = \u0026#34; + sum) // \u0026#34;+\u0026#34; means combine into a string "
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2015-02-26-flake-it-till-you-make-it/",
+	"title": "Flake it till you make it",
+	"tags": [],
+	"description": "",
+	"content": "Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?\nThe truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.\nAt the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.\nA soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/tags/markdown/",
+	"title": "markdown",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2015-02-20-test-markdown/",
+	"title": "Test markdown",
+	"tags": ["example", "markdown"],
+	"description": "",
+	"content": "You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.\nHere is some bold text\nHere is a secondary heading Here's a useless table:\n   Number Next number Previous number     Five Six Four   Ten Eleven Nine   Seven Eight Six   Two Three One    How about a yummy crepe?\nHere's a code chunk with syntax highlighting:\nvar foo = function(x) {\rreturn(x + 5);\r}\rfoo(3)\r"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2015-02-13-hamlet-monologue/",
+	"title": "To be",
+	"tags": [],
+	"description": "",
+	"content": "To be, or not to be\u0026ndash;that is the question: Whether \u0026lsquo;tis nobler in the mind to suffer The slings and arrows of outrageous fortune Or to take arms against a sea of troubles And by opposing end them. To die, to sleep\u0026ndash; No more\u0026ndash;and by a sleep to say we end The heartache, and the thousand natural shocks That flesh is heir to. \u0026lsquo;Tis a consummation Devoutly to be wished. To die, to sleep\u0026ndash; To sleep\u0026ndash;perchance to dream: ay, there's the rub, For in that sleep of death what dreams may come When we have shuffled off this mortal coil, Must give us pause. There's the respect That makes calamity of so long life. For who would bear the whips and scorns of time, Th\u0026rsquo; oppressor's wrong, the proud man's contumely The pangs of despised love, the law's delay, The insolence of office, and the spurns That patient merit of th\u0026rsquo; unworthy takes, When he himself might his quietus make With a bare bodkin? Who would fardels bear, To grunt and sweat under a weary life, But that the dread of something after death, The undiscovered country, from whose bourn No traveller returns, puzzles the will, And makes us rather bear those ills we have Than fly to others that we know not of? Thus conscience does make cowards of us all, And thus the native hue of resolution Is sicklied o'er with the pale cast of thought, And enterprise of great pitch and moment With this regard their currents turn awry And lose the name of action. \u0026ndash; Soft you now, The fair Ophelia! \u0026ndash; Nymph, in thy orisons Be all my sins remembered.\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2015-01-27-dear-diary/",
+	"title": "Dear diary",
+	"tags": [],
+	"description": "",
+	"content": "What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don't hear in those nursery rhymes is that she starves me if I don't go to school with her; it's the only way I can stay alive! I'm thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2015-01-19-soccer/",
+	"title": "Soccer",
+	"tags": [],
+	"description": "",
+	"content": "From Wikipedia:\nAssociation football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world's most popular sport.[3][4][5][6] The game is played on a rectangular field with a goal at each end. The object of the game is to score by getting the ball into the opposing goal.\nThe goalkeepers are the only players allowed to touch the ball with their hands or arms while it is in play and then only in their penalty area. Outfield players mostly use their feet to strike or pass the ball, but may use their head or torso to strike the ball instead. The team that scores the most goals by the end of the match wins. If the score is level at the end of the game, either a draw is declared or the game goes into extra time and/or a penalty shootout depending on the format of the competition. The Laws of the Game were originally codified in England by The Football Association in 1863. Association football is governed internationally by the International Federation of Association Football (FIFA; French: Fédération Internationale de Football Association) which organises a World Cup every four years.[7]\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/un-used/2015-01-15-pirates/",
+	"title": "Pirates arrrr",
+	"tags": [],
+	"description": "",
+	"content": "Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/wiki/commands/",
+	"title": "Commands!",
+	"tags": [],
+	"description": "",
+	"content": "Info about commands, possible sub menu's for commands separated by plugins!\n"
+},
+{
+	"uri": "https://bennyboy1695.github.io/ShadowNode/wiki/",
+	"title": "Wikis",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
