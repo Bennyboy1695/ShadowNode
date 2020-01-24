@@ -141,7 +141,7 @@ code + .copy-to-clipboard {
 }
 
 code  {
-    background-color: var(--MAIN-TITLES-TEXT-color);
+    background-color: rgb(47, 50, 51);
     color: var(--MENU-SEARCH-BOX-ICONS-color);
     border-color: var(--MENU-SECTION-HR-color);
 }
