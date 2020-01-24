@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://bennyboy1695.github.io/ShadowNode/images/favicon.png" type="image/png">
 
-    <title>Dear diary :: ShadowNode Modded Game Servers</title>
+    <title>Guides :: ShadowNode Modded Game Servers</title>
 
     
     <link href="https://bennyboy1695.github.io/ShadowNode/css/nucleus.css?1579836757" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/un-used/2015-01-27-dear-diary/">
+  <body class="" data-url="/wiki/guides/">
     <nav id="sidebar" class="">
 
 
@@ -77,7 +77,7 @@
   
     
     <li data-nav-id="/un-used/" title="Un-useds" class="dd-item 
-        parent
+        
         
         
         ">
@@ -139,7 +139,7 @@
  
   
     
-      <li data-nav-id="/un-used/2015-01-27-dear-diary/" title="Dear diary" class="dd-item active">
+      <li data-nav-id="/un-used/2015-01-27-dear-diary/" title="Dear diary" class="dd-item ">
         <a href="https://bennyboy1695.github.io/ShadowNode/un-used/2015-01-27-dear-diary/">
         Dear diary
         
@@ -280,7 +280,7 @@
   
     
     <li data-nav-id="/wiki/" title="Wiki" class="dd-item 
-        
+        parent
         
         
         ">
@@ -323,7 +323,7 @@
  
   
     
-      <li data-nav-id="/wiki/guides/" title="Guides" class="dd-item ">
+      <li data-nav-id="/wiki/guides/" title="Guides" class="dd-item active">
         <a href="https://bennyboy1695.github.io/ShadowNode/wiki/guides/">
         Guides
         
@@ -391,7 +391,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/Bennyboy1695/ShadowNodeHugo/tree/master/content/un-used/2015-01-27-dear-diary.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/Bennyboy1695/ShadowNodeHugo/tree/master/content/wiki/guides.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -422,7 +422,7 @@
             
           
           
-            <a href='https://bennyboy1695.github.io/ShadowNode/'>ShadowNode Modded Game Servers</a> > <a href='https://bennyboy1695.github.io/ShadowNode/un-used/'>Un-useds</a> > Dear diary
+            <a href='https://bennyboy1695.github.io/ShadowNode/'>ShadowNode Modded Game Servers</a> > <a href='https://bennyboy1695.github.io/ShadowNode/wiki/'>Wiki</a> > Guides
           
          
           
@@ -435,7 +435,42 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#always-on-vs-online-only">Always On vs Online Only</a></li>
+        <li><a href="#checking-your-balance">Checking Your Balance</a></li>
+        <li><a href="#how-to-create-chunk-loaders">How to Create Chunk Loaders</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-view-active-chunk-loaders">How to View Active Chunk Loaders</a></li>
+    <li><a href="#how-to-read-chunk-coordinates">How to Read Chunk Coordinates</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#how-to-claim">How to Claim</a>
+      <ul>
+        <li><a href="#2d-vs-3d">2D vs 3D</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-subdivide-claims">How to Subdivide Claims</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#how-to-install">How to Install</a></li>
+    <li><a href="#login-to-your-profile">Login to your Profile</a></li>
+    <li><a href="#allocate-more-ram">Allocate More Ram</a></li>
+    <li><a href="#setup-an-instance">Setup an Instance</a>
+      <ul>
+        <li><a href="#with-link">With Link</a></li>
+        <li><a href="#with-zip">With Zip</a></li>
+      </ul>
+    </li>
+    <li><a href="#archive-cannot-find-instancecfg">Archive Cannot find instance.cfg</a></li>
+    <li><a href="#adding-java-arguments">Adding Java Arguments</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -451,7 +486,7 @@
           
             <h1>
               
-              Dear diary
+              Guides
             </h1>
           
 
@@ -459,7 +494,136 @@
 
 
 
-<p>What is it with that Mary girl?  Dragging me to school every day. As if I had a choice.  What you don't hear in those nursery rhymes is that she starves me if I don't go to school with her; it's the only way I can stay alive!  I'm thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).</p>
+<p>Table of Contents</p>
+<ul>
+<li><a href="#Chunk-Loaders">Chunk Loaders</a>
+<ul>
+<li><a href="#Always-On-vs-Online-Only">Always Online vs Online Only</a></li>
+<li><a href="#Checking-Your-Balance">Checking Your Balance</a></li>
+<li><a href="#How-to-Create-Chunk-Loaders">Creating a Chunk Loader</a></li>
+<li><a href="#How-to-View-Active-Chunk-Loaders">Viewing Active Chunk Loaders</a></li>
+<li><a href="#How-to-Read-Chunk-Coordinates">Reading Chunk Coordinates</a></li>
+</ul>
+</li>
+<li><a href="#claiming">Claiming</a>
+<ul>
+<li><a href="#how-to-claim">How to Claim</a></li>
+<li><a href="#2d-vs-3d">2D vs 3D</a></li>
+<li><a href="#how-to-subdivide-claims">How to Subdivide</a></li>
+</ul>
+</li>
+<li><a href="#crates">Crates</a></li>
+<li><a href="#multimc">MultiMC</a>
+<ul>
+<li><a href="#how-to-install">How to Install</a></li>
+<li><a href="#login-to-your-profile">Login to your Profile</a></li>
+<li><a href="#allocate-more-ram">Allocate More Ram</a></li>
+<li><a href="#setup-an-instance">Setup an Instance</a>
+<ul>
+<li><a href="#with-link">With Link</a></li>
+<li><a href="#with-zip">With ZIP</a></li>
+</ul>
+</li>
+<li><a href="#archive-cannot-find-instance.cfg">Archive Cannot Find instance.cfg</a></li>
+<li><a href="#adding-java-arguments">Adding Java Arguments</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="chunk-loaders">Chunk Loaders</h1>
+<p>Modded Chuck Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk  Loaders to achieve their purpose. There are two types of Chunk Loaders, Always On and Online Only. To view chunk borders, hit <code>F3+g</code></p>
+<p>The most basic command in the plugin is <code>betterchunkloader</code>, or just <code>bcl</code> for short. Executing this command will open an interface in the chat that the user may interact with. The interface will contain a list of active chunk loaders you currently own, along with some user-friendly icons. An example of the interface is below. 
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-1_23-49-25-png.305/" alt="Interface"></p>
+<h3 id="always-on-vs-online-only">Always On vs Online Only</h3>
+<p>Always On is a chunk loader which is online 24/7 and will keep the chunk loaded. However, the chunk loader will stop loading the chunk after 3 days of activity. Once the owner returns, it will resume loading the chunk.The Online Only chunk loader will only load the chunk when the owner of the loader is online.</p>
+<h3 id="checking-your-balance">Checking Your Balance</h3>
+<p>To check the number of chunks you may use/have used, you can click the <code>Balance</code> or run <code>bcl bal</code>. The interface will state the number of both Always Online and Online Only chunks that are currently active (used) and are available. 
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-1_23-54-41-png.306/" alt="Balance"></p>
+<h3 id="how-to-create-chunk-loaders">How to Create Chunk Loaders</h3>
+<p>From the main interface, you should click the <code>Create</code> icon to begin the process of creating a Chunk Loader. An interface will open and should look like the following image.
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-2_0-2-38-png.307/" alt="Create a Chunk Loader"></p>
+<p>The interface will state the name of the chunk loader Owner. It will also give you the coordinates of the chunk that you are currently standing in. Please note that these coordinates are different than regular XYZ coordinates. To create an Always Online chunk loader or Online Only chunk loader, click their respective icons. You should be prompted with the following interface.
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-2_0-15-28-png.308/" alt="Create a Chunk Loader"></p>
+<p>The <code>Radius</code> icons will determine the size of the chunk loader. You can only load as many chunks as your balance allows. Hovering over the icon will display how many chunks will be loaded with each radius upgrade.
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-2_0-27-8-png.309/" alt="Radius"></p>
+<p>After you select your radius size, your chunk loader will be created. You will be shown a confirmation window which will display your name, loader id, and state. If you'd like to delete your loader and regain your chunk balance, click the <code>Delete</code> icon.
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-2_0-36-1-png.310/" alt="Chunk Confirmation"></p>
+<h2 id="how-to-view-active-chunk-loaders">How to View Active Chunk Loaders</h2>
+<p>Once you have Chunk Loaders active, running <code>bcl</code> will contain some information regarding regarding your active chunk loaders. You can hover over the <code>Chunk</code> icon to view the coordinates of the chunk loader. Clicking <code>view</code> will pull up the same prompt that was displayed after you created your loader originally. 
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-2_0-53-17-png.311/" alt="BCL Balance"></p>
+<h2 id="how-to-read-chunk-coordinates">How to Read Chunk Coordinates</h2>
+<p>to view the coordinates of the chunk you are currently in, press <code>F3</code>. You will see the typical statistics of your game, which should resemble the image below. The value in the red box is your chunk coordinates.
+<img src="https://www.shadownode.ca/attachments/upload_2018-7-2_0-58-15-png.313/" alt="Chunk Coordinates"></p>
+<h1 id="claiming">Claiming</h1>
+<p>All of our servers use the latest Grief Prevention plugin for claiming.</p>
+<h2 id="how-to-claim">How to Claim</h2>
+<p>To claim you can either use a Golden Shovel you make, or one provide to you when you first join the server (some servers do not start with the golden shovel or have had their claim tool changed). Every block claimed is accounted for. You can buy claim blocks from the tokenshop, or from the store. Before claiming any land, please make sure to check which method of claiming you currently are using, <a href="#2D-vs-3D">2D or 3D</a>. Once your method of choice is confirmed, we can begin claiming. If you are in 2D mode, right click two opposite corners of the intended claim. For 3D mode, right click two opposite corners, one at the lowest point in the claim, and the other at the highest point in the claim. You can right click the air or ground with a stick to see who claims the block you are looking at.</p>
+<h3 id="2d-vs-3d">2D vs 3D</h3>
+<p>2D means that no what Y level you claim the blocks on, Grief Prevention will make your claim from bedrock to make build level. 3D will require you to claim your area in a cube and will only claim what is inside the cube.</p>
+<h2 id="how-to-subdivide-claims">How to Subdivide Claims</h2>
+<p>Subdividing your claim means making smaller sections in the bigger claim to allow people to build/access certain parts of your base. To subdivide claims, hold your golden shovel and run the command <code>subdivideclaims</code>. This changes your golden shovel to create smaller claims. This is always in 2D mode, but it reaches to the highest level of your main claim. When you select two corners you see iron blocks instead of golden blocks. To get out of subdivideclaims mode, scroll your mouse wheel off the golden shovel and then back onto it. This can be used to make towns and/or sell plots to other players for in-game currency.</p>
+<h1 id="crates">Crates</h1>
+<p>We use a plugin called HuskyCrates to manage our crates. Crates contain items, the quality of which depends on the tier of the crate. To open a create you must hold the crate key in your hand and right click the corresponding crate. You can obtain crate keys by either purchasing them from our <a href="https://shop.shadownode.ca">store</a>, or buy buying them in our token shop. <a href="https://goo.gl/9dXBT6">This spreadsheet</a> shows everything you can get from crates. It's listed by crate tier and mod. Some items on this list may not be on your server as some modpacks don't have all the mods as others.</p>
+<h1 id="multimc">MultiMC</h1>
+<p>MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. The launcher is very good for Linux users or those who don't like the Twitch Launcher. <strong>We strongly recommend this launcher.</strong></p>
+<h2 id="how-to-install">How to Install</h2>
+<ol>
+<li>Head to <a href="https://multimc.org">MultiMC</a> and select which software is most appropriate for you.</li>
+<li>Locate the downloaded zip file and export it into a folder.</li>
+</ol>
+<ul>
+<li>On most machines, you can right click the folder, click export files and select your destination. If your machine does not have this option, head to Google!</li>
+</ul>
+<ol start="3">
+<li>Open the MultiMC folder generated at the location specified during export and double click the MultiMC executable.</li>
+<li>Complete the final setup details that it asks for, such as your preferred language and java version.</li>
+</ol>
+<h2 id="login-to-your-profile">Login to your Profile</h2>
+<ol>
+<li>Click Profiles at the top</li>
+<li>Click Manage Accounts in the dropdown</li>
+<li>Click Add on the right side and fill out the request information</li>
+</ol>
+<h2 id="allocate-more-ram">Allocate More Ram</h2>
+<p><em>This must be done before setting up an instance</em></p>
+<ol>
+<li>Click the settings, found at the top of your toolbar</li>
+<li>Head to Java on the left side</li>
+<li>Under the memory section you will be able to change your minimum and maximum allocation</li>
+</ol>
+<ul>
+<li>We do not suggest going above 6144mb</li>
+<li>4096mb is the average selection</li>
+</ul>
+<h2 id="setup-an-instance">Setup an Instance</h2>
+<h3 id="with-link">With Link</h3>
+<ol>
+<li>Copy the link address from the modpack download page</li>
+<li>In MultiMC, select the white blank paper at the top that says Add Instance</li>
+<li>Check the box next to Import Modpack (local file or link)</li>
+<li>Paste your link into the text box below</li>
+<li>Enter the name of the modpack</li>
+<li>Click on the instance and launch</li>
+</ol>
+<p><strong>To update you must reinstall the new update in the same manor as you downloaded the pack oringinally. Remember to save any world files for single player worlds.</strong></p>
+<h3 id="with-zip">With Zip</h3>
+<ol>
+<li>Download a zip file of the modpack from the modpack download page</li>
+<li>In MultiMC, select the white blank paper at the top that says Add Instance</li>
+<li>Check the box next to Import Modpack (local file or link)</li>
+<li>Click the 3 dots and locate your zip</li>
+<li>Once located, click ok</li>
+<li>Launch and enjoy</li>
+</ol>
+<h2 id="archive-cannot-find-instancecfg">Archive Cannot find instance.cfg</h2>
+<p>Ensure that you are running a version higher than or equal to 0.6.0. You can find your version at the top of the launcher toolbar. If your version is not higher than or equal to 0.6.0, follow <a href="https://github.com/MultiMC/MultiMC5/wiki/Switching-update-channels">this tutorial</a></p>
+<h2 id="adding-java-arguments">Adding Java Arguments</h2>
+<ol>
+<li>Locate the Settings tab at the top of the toolbar</li>
+<li>Click Java on the left side</li>
+<li>Locate JVM Arguments in the Java Runtime section</li>
+<li>Fill in your desired arguments in the blank</li>
+<li>Click test to verify everything is working properly.</li>
+</ol>
 
 
 <footer class=" footline" >
@@ -498,20 +662,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
                         
                         
                     
@@ -522,9 +672,6 @@
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -611,7 +758,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -622,57 +768,6 @@
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -710,6 +805,78 @@
             
             
                 
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 

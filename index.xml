@@ -105,12 +105,33 @@ Association football, more commonly known as football or soccer,[2] is a sport p
     </item>
     
     <item>
-      <title>Commands!</title>
+      <title>Basic Commands</title>
       <link>https://bennyboy1695.github.io/ShadowNode/wiki/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bennyboy1695.github.io/ShadowNode/wiki/commands/</guid>
-      <description>Info about commands, possible sub menu&#39;s for commands separated by plugins!</description>
+      <description>Table of Contents
+ Home Chat Island/Cave Areas Grief Prevention     Argument Required     &amp;lt;&amp;gt; Required   [] Optional    Home /sethome [name] [-o] Sets your home at a current location. Failure to specify a name will set the home under the name home. Adding -o to the end of your command will override the location of the previous home (e.g sethome home -o will make your new home at the location you&#39;re currently at).</description>
+    </item>
+    
+    <item>
+      <title>Guides</title>
+      <link>https://bennyboy1695.github.io/ShadowNode/wiki/guides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bennyboy1695.github.io/ShadowNode/wiki/guides/</guid>
+      <description>Table of Contents
+ Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.cfg Adding Java Arguments    Chunk Loaders Modded Chuck Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose.</description>
+    </item>
+    
+    <item>
+      <title>Rules and Policies</title>
+      <link>https://bennyboy1695.github.io/ShadowNode/wiki/rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bennyboy1695.github.io/ShadowNode/wiki/rules/</guid>
+      <description>Rules Store Policies  ShadowNode was created in 2014 by our owner ShadowKitten. Aiming to provide players with the best experience possible, ShadowNode is proud to host over 15 diverse servers!
+Rules These rules apply for our Forums, Discord, servers and all other services. By using our services, you are agreeing to follow these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments for each rule, however choose a punishment is at their discretion.</description>
     </item>
     
   </channel>
