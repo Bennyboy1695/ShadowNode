@@ -111,7 +111,8 @@ Association football, more commonly known as football or soccer,[2] is a sport p
       
       <guid>https://bennyboy1695.github.io/ShadowNode/wiki/commands/</guid>
       <description>Table of Contents
- Home Chat Island/Cave Areas Grief Prevention     Argument Required     &amp;lt;&amp;gt; Required   [] Optional    Home /sethome [name] [-o] Sets your home at a current location. Failure to specify a name will set the home under the name home. Adding -o to the end of your command will override the location of the previous home (e.g sethome home -o will make your new home at the location you&#39;re currently at).</description>
+ Home Chat Island/Cave Areas Grief Prevention Miscellaneous Commands     Argument Required     &amp;lt;&amp;gt; Required   [] Optional    Home These commands are affecting by your rank. For example a normal member gets only 1 home. See Ranks for more info!
+/sethome [name] [-o] Sets your home at a current location. Failure to specify a name will set the home under the name home.</description>
     </item>
     
     <item>
@@ -121,7 +122,18 @@ Association football, more commonly known as football or soccer,[2] is a sport p
       
       <guid>https://bennyboy1695.github.io/ShadowNode/wiki/guides/</guid>
       <description>Table of Contents
- Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.cfg Adding Java Arguments    Chunk Loaders Modded Chuck Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose.</description>
+ Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.cfg Adding Java Arguments    Chunk Loaders Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose.</description>
+    </item>
+    
+    <item>
+      <title>Ranks</title>
+      <link>https://bennyboy1695.github.io/ShadowNode/wiki/ranks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bennyboy1695.github.io/ShadowNode/wiki/ranks/</guid>
+      <description>Shadownode Ranks
+ Ranks  Shade    Ranks On the server we have multiple ranks that you can contribute to acquire.
+Some include some commands with many being useful and some fun ones included with a few.</description>
     </item>
     
     <item>

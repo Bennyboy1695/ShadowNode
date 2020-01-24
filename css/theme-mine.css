@@ -57,6 +57,7 @@ a {
 th {
     background: #161A1D;
     border-color: var(--MENU-SECTIONS-BG-color);
+    text-align: center;
 }
 
 td {
@@ -66,6 +67,7 @@ td {
 table {
     border-color: var(--MENU-SECTIONS-BG-color);
     color: var(--MAIN-TITLES-TEXT-color);
+    width: 50%;
 }
 
 #top-bar {
