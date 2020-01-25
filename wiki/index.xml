@@ -41,28 +41,5 @@ If you just want to simply edit one of the existing pages you just click the  Ed
  Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.cfg Adding Java Arguments    Chunk Loaders Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose.</description>
     </item>
     
-    <item>
-      <title>Ranks</title>
-      <link>https://bennyboy1695.github.io/ShadowNode/wiki/ranks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bennyboy1695.github.io/ShadowNode/wiki/ranks/</guid>
-      <description>Available Ranks:  Shade Night Equinox Eclipse Extra Ranks  On the server we have multiple ranks that you can contribute to acquire.
-The first few include some commands with many being useful and some fun ones included with a few.
-Each rank also has their own custom join/leave message.
-Also every rank inherits the commands/features from the previous ranks.
-Shade [Shade] Costs 5 USD Features: /back Returns you to the most recent location you teleported from with no cooldown.</description>
-    </item>
-    
-    <item>
-      <title>Rules and Policies</title>
-      <link>https://bennyboy1695.github.io/ShadowNode/wiki/rules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bennyboy1695.github.io/ShadowNode/wiki/rules/</guid>
-      <description>Rules Store Policies  ShadowNode was created in 2014 by our owner ShadowKitten. Aiming to provide players with the best experience possible, ShadowNode is proud to host over 15 diverse servers!
-Rules These rules apply for our Forums, Discord, servers and all other services. By using our services, you are agreeing to follow these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments for each rule, however choose a punishment is at their discretion.</description>
-    </item>
-    
   </channel>
 </rss>
