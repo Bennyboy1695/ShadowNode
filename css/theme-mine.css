@@ -81,7 +81,8 @@ table {
     margin-left: 0px;
     border-radius: 5px;
     font-size: 18px;
-    border: 1px solid rgb(100, 106, 112)
+    border: 1px solid rgb(100, 106, 112);
+    background-color: #252627;
 }
 
 #top-bar {
