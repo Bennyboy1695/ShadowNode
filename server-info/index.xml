@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>Banned Items</title>
+      <link>https://bennyboy1695.github.io/ShadowNode/server-info/banned/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bennyboy1695.github.io/ShadowNode/server-info/banned/</guid>
+      <description>We have banned certain items on our servers because of issues in the past that now require us to disable them. If you encounter a bug, or any issue with the items, please report it in our Discord Support channel. Our plugin allows us to ban the items in a way that allows you to still progress through the pack. Craft, Place, Use, and Near are all the different ways items can be banned.</description>
+    </item>
+    
+    <item>
       <title>Ranks</title>
       <link>https://bennyboy1695.github.io/ShadowNode/server-info/ranks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

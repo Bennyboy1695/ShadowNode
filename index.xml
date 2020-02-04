@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>Banned Items</title>
+      <link>https://bennyboy1695.github.io/ShadowNode/server-info/banned/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bennyboy1695.github.io/ShadowNode/server-info/banned/</guid>
+      <description>We have banned certain items on our servers because of issues in the past that now require us to disable them. If you encounter a bug, or any issue with the items, please report it in our Discord Support channel. Our plugin allows us to ban the items in a way that allows you to still progress through the pack. Craft, Place, Use, and Near are all the different ways items can be banned.</description>
+    </item>
+    
+    <item>
       <title>Basic Commands</title>
       <link>https://bennyboy1695.github.io/ShadowNode/wiki/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,7 +47,7 @@ If you just want to simply edit one of the existing pages you just click the  Ed
       
       <guid>https://bennyboy1695.github.io/ShadowNode/wiki/guides/</guid>
       <description>Table of Contents
- Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.cfg Adding Java Arguments    Chunk Loaders Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose.</description>
+ Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.cfg Adding Java Arguments Summoning the Ender Dragon    Chunk Loaders Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose.</description>
     </item>
     
     <item>
