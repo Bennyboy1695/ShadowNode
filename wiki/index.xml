@@ -15,9 +15,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bennyboy1695.github.io/ShadowNode/wiki/commands/</guid>
-      <description>Table of Contents
- Home Chat Island/Cave Areas Grief Prevention Miscellaneous Commands     Argument Required     &amp;lt;&amp;gt; Required   [] Optional    Home These commands are affecting by your rank. For example a normal member gets only 1 home. See Ranks for more info!
-/sethome [name] [-o] Sets your home at a current location. Failure to specify a name will set the home under the name home.</description>
+      <description>Table of Contents (Click to expand) Home Chat Island/Cave Areas Grief Prevention Miscellaneous Commands      Argument Required     &amp;lt;&amp;gt; Required   [] Optional    Home These commands are affecting by your rank. For example a normal member gets only 1 home. See Ranks for more info!
+/sethome [name] [-o] Sets your home at a current location.</description>
     </item>
     
     <item>
@@ -37,8 +36,7 @@ If you just want to simply edit one of the existing pages you just click the  Ed
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bennyboy1695.github.io/ShadowNode/wiki/guides/</guid>
-      <description>Table of Contents
- Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.cfg Adding Java Arguments   Summoning the Ender Dragon  Chunk Loaders Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose.</description>
+      <description>Table of Contents (Click to expand) Chunk Loaders  Always Online vs Online Only Checking Your Balance Creating a Chunk Loader Viewing Active Chunk Loaders Reading Chunk Coordinates   Claiming  How to Claim 2D vs 3D How to Subdivide   Crates MultiMC  How to Install Login to your Profile Allocate More Ram Setup an Instance  With Link With ZIP   Archive Cannot Find instance.</description>
     </item>
     
   </channel>
